@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Viola minha viola</title>
+  <meta name="description" content="Gerando Falcões — exemplo profissional estático inspirado no site original.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="brand" href="#home"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="logo" class="logo">Viola minha viola</a>
+      <nav class="nav" id="nav">
+  <ul>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#tecnologias">Tecnologias sociais</a></li>
+    <li><a href="#programas">Parcerias</a></li>
+    <li><a href="#noticias">Notícias</a></li>
+    <li><a href="#impacto">Transparência</a></li>
+
+    <!-- Loja Online com submenu -->
+    <li class="dropdown">
+      <a href="#loja">Loja Online ▾</a>
+      <ul class="submenu">
+        <li><a href="#souvenir">Souvenir</a></li>
+        <li><a href="#violas">Violas</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#contato" class="btn btn-sm">Apoie</a></li>
+  </ul>
+</nav>
+
+      <button id="btnMenu" class="btn-burger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <picture class="hero-media">
+        <source media="(min-width:900px)" srcset="https://images.unsplash.com/photo-1520975698514-ec53bc2e1c6a?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+        <img src="https://images.unsplash.com/photo-1520975698514-ec53bc2e1c6a?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Comunidade e projetos sociais">
+      </picture>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>Transformando comunidades com educação, cultura e tecnologia</h1>
+        <p class="lead">Aceleramos líderes locais e criamos oportunidades sustentáveis por meio de programas de formação, cultura e geração de renda.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#programas">Conheça os programas</a>
+          <a class="btn btn-secondary" href="#contato">Quero ajudar</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="container about section">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Quem somos</h2>
+          <p>Somos um ecossistema que conecta educação, cultura e tecnologia para gerar impacto real nas periferias. Trabalhamos junto a redes locais para potencializar iniciativas e transformar realidades.</p>
+          <ul class="bullets">
+            <li>Formação técnica e socioemocional</li>
+            <li>Polos culturais e esportivos</li>
+            <li>Empreendedorismo e geração de renda</li>
+          </ul>
+          <a href="#impacto" class="link-more">Ver impacto →</a>
+        </div>
+        <div class="about-cards">
+          <article class="card-highlight">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Educação">
+            <div class="card-body">
+              <h3>Educação</h3>
+              <p>Capacitação para jovens com ênfase em tecnologia e habilidades socioemocionais.</p>
+            </div>
+          </article>
+          <article class="card-highlight">
+            <img src="https://images.unsplash.com/photo-1533116678757-0c79c3d2b4b2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Cultura">
+            <div class="card-body">
+              <h3>Cultura & Esporte</h3>
+              <p>Espaços que fortalecem identidade, arte e bem-estar da comunidade.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="programas" class="container section programs">
+      <h2 class="section-title">Programas em destaque</h2>
+      <div class="program-grid">
+        <div class="program">
+          <img src="https://images.unsplash.com/photo-1523580494865-6c5f7f1e0b2b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Formação">
+          <h3>Falcons University</h3>
+          <p>Formação técnica e socioemocional para o mercado de trabalho.</p>
+        </div>
+        <div class="program">
+          <img src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Polos culturais">
+          <h3>Polos Culturais</h3>
+          <p>Centros de arte, música e esporte que fortalecem comunidades.</p>
+        </div>
+        <div class="program">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Favela 3D">
+          <h3>Favela 3D</h3>
+          <p>Requalificação local e geração de trabalho em territórios prioritários.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="impacto" class="container section impact">
+      <h2 class="section-title">Nosso impacto</h2>
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h3 data-count="740000">0</h3>
+          <p>Pessoas impactadas</p>
+        </div>
+        <div class="impact-card">
+          <h3 data-count="5500">0</h3>
+          <p>Unidades atendidas</p>
+        </div>
+        <div class="impact-card">
+          <h3 data-count="24000">0</h3>
+          <p>Jovens em formação</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="noticias" class="container section news">
+      <h2 class="section-title">Notícias recentes</h2>
+      <div class="news-grid">
+        <article class="news-card">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Notícia">
+          <div class="news-body">
+            <h4>Projeto X traz oportunidades a jovens</h4>
+            <p>Resumo da notícia descrevendo o impacto do projeto na comunidade local.</p>
+            <a href="#" class="link-more">Ler mais →</a>
+          </div>
+        </article>
+        <article class="news-card">
+          <img src="https://images.unsplash.com/photo-1520975663186-2d0f6f6c8a60?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Notícia 2">
+          <div class="news-body">
+            <h4>Capacitação profissional em Y</h4>
+            <p>Resumo breve com destaque para resultados e depoimentos.</p>
+            <a href="#" class="link-more">Ler mais →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" class="container section contact">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Fale conosco</h2>
+          <p>Quer apoiar ou saber mais? Preencha o formulário ou entre em contato via email.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> contato@exemplo.org</li>
+            <li><strong>Telefone:</strong> (31) 9 0000-0000</li>
+            <li><strong>Endereço:</strong> Belo Horizonte - MG</li>
+          </ul>
+        </div>
+        <form id="form" class="contact-form" onsubmit="return handleSubmit(event)">
+          <label>Nome<input type="text" id="nome" required></label>
+          <label>Email<input type="email" id="email" required></label>
+          <label>Mensagem<textarea id="mensagem" rows="5" required></textarea></label>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+            <button class="btn btn-ghost" type="reset">Limpar</button>
+          </div>
+          <p id="status" aria-live="polite" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <strong>viola minha viola</strong>
+        <p>Exemplo estático — projeto para fins de desenvolvimento e design.</p>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#programas">Programas</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Viola minnha viola</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
